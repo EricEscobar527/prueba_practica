@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #05274c;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: #05274c;
+    position: absolute;
+    bottom: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+.logo img{
+    width: 40px;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 60px;
+    list-style: none;
+}
+.nav-menu-item, .nav-menu-item2{
+    font-size: 15px;
+    margin: 0 5px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+.nav-menu-link:hover{
+background-color:#031324;
+transform: 0.5s;
+}
+.container{
+    width: 100%;
+}
+.form{
+width: 90%;
+position: relative;
+margin: 20px auto;
+display: none;
+}
+.input1{
+width: 47%;
+height: 40px;
+margin-left: 10px;
+margin-bottom: 20px;
+background-color: rgb(224, 224, 224);
+border-radius: 5px;
+}
+.input2{
+    width: 95.4%;
+    height: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(224, 224, 224);
+    border-radius: 5px;
+}
+textarea{
+    width:95.4%;
+    background-color: rgb(224, 224, 224);
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.btn{
+margin-top: 20px;
+height: 50px;
+background-color: #05274c;
+color: white;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    border: black soli 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#postulantes{
+    display: none;
+}
+table{
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+th{
+    background-color: #05274c;
+    color: white; 
+}
+td, th{
+    border: 2px solid black;
+    text-align: center;
+    color: black;
+}
+th{
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    }
+    td{ 
+        background-color: rgb(241, 241, 241);
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;  
+    }
